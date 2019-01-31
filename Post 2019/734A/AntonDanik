@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class AntonDanik {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		String data = scanner.next();
+
+		int ant = 0;
+		
+		for(int i=0; i<data.length(); i++) {
+			if(data.charAt(i) == 'A')
+				ant++;
+			else
+				ant--;
+		}
+
+		System.out.println(ant==0?"Friendship":ant>0?"Anton":"Danik");
+
+	}
+}
