@@ -1,6 +1,6 @@
 # CodeForces
 CodeForces problems solved to date 
 
-Post 2019 Folder: Goal of at least 1 problem a day
+Post 2019 Folder
 
-Pre 2019 Folder: Previously solved questions before 1-problem-a-day challenge
+Pre 2019 Folder
