@@ -7,6 +7,13 @@ public class FoxesAndSnakes {
 		int n = scan.nextInt();
 		int m = scan.nextInt();
 
+		for(int i=1; i<=n; i++) {
+			for (int j = 1; j <= m; j++) {
+					System.out.print( (i%2 != 0) || (i%4==2 && j==m) || (i%4==0 && j==1)? "#" : "." );
+				}
+				System.out.println();
+		}
+/*
 		for(int j=1; j<=n; j++) {
 			// if line "j" is an odd number, print # n times
 			if(j%2 != 0) {
@@ -43,7 +50,10 @@ public class FoxesAndSnakes {
 					}
 					
 				}
+
 			}
+
 		}
+*/
 	}
 }
